@@ -9,7 +9,6 @@ WARP_CLIENT_ID = ""
 
 if not WARP_CLIENT_ID:
     print("WARP Client ID not found!")
-    raise ValueError("WARP Client ID not provided!")
 
 def genString(stringLength):
     try:
