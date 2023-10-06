@@ -27,7 +27,6 @@ brew install python git
 ```
 pip install -r requirements.txt
 ```
- - Fill WARP_CLIENT_ID in `main.py`
  - Run Python Program
 ```
 python main.py
