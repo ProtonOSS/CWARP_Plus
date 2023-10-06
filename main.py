@@ -1,4 +1,3 @@
-from datetime import datetime
 from json import dumps
 from random import choice, randint
 from string import ascii_letters, digits
@@ -37,9 +36,6 @@ while True:
             "fcm_token": f"{install_id}:APA91b{genString(134)}",
             "referrer": WARP_CLIENT_ID,
             "warp_enabled": False,
-            "tos": f"{datetime.now().isoformat()[:-3]}+00:00",
-            "type": "Linux",
-            "locale": "en_GB"
         }
         data = dumps(body).encode("utf8")
         headers = {
