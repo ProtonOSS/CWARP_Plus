@@ -7,7 +7,7 @@ import httpx
 WARP_CLIENT_ID = ""
 
 if not WARP_CLIENT_ID:
-    print("WARP Client ID not found!")
+    exit("WARP Client ID not found!")
 
 def genString(stringLength):
     try:
